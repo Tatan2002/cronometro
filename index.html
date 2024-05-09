@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<body>
+<div class="marco">
+    <div class="tiempo" id="tiempo">00:00:00.000</div>
+    <div class="botones">
+        <div class="btn">
+            <i class="fa-solid fa-play" onclick="iniciar()"></i>
+        </div>
+        <div class="btn">
+            <i class="fa-solid fa-pause" onclick="pausar()"></i>
+        </div>
+        <div class="btn">
+            <i class="fa-solid fa-rotate-right" onclick="reiniciar()"></i>
+        </div>
+    </div>
+</div>
+    
+<script src="script.js"></script>    
+</body>
+</html>
